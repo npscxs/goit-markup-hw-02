@@ -77,6 +77,9 @@ address .contact:hover {
 address .contact:active {
   color: #404bbf;
 }
+address .contact:focus {
+  color: #404bbf;
+}
 
 /* Title */
 .section-title {
@@ -113,7 +116,7 @@ address .contact:active {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
-.features-name .features-text {
+.features-text {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
