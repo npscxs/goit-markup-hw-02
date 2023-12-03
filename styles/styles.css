@@ -4,7 +4,7 @@ body {
   color: #2e2f42;
 }
 
-/* title rules */
+/* Tag rules */
 a {
   text-decoration: none;
 }
@@ -39,7 +39,8 @@ p {
   letter-spacing: 0.32px;
 }
 
-/* class rules */
+/* Class rules */
+
 /* Logo Web studio */
 .top-line .logo {
   color: #2e2f42;
@@ -111,12 +112,12 @@ address .tel:hover {
   background: #404bbf;
 }
 
-/* good sides of the company */
+/* Features */
 .sides-company .text-paragrapf {
   color: #434455;
 }
 
-/* team */
+/* Team */
 .our-team {
   background-color: #f4f4fd;
 }
@@ -127,7 +128,7 @@ address .tel:hover {
   color: #434455;
 }
 
-/* portfolio */
+/* Portfolio */
 .our-portfolio .our-portfolio-title {
   text-align: center;
 }
@@ -135,7 +136,7 @@ address .tel:hover {
   color: #434455;
 }
 
-/* foter */
+/* Foter */
 .down-line {
   background-color: #2e2f42;
 }
