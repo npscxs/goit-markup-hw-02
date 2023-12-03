@@ -1,0 +1,157 @@
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+/* title rules */
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 56px;
+  font-style: normal;
+
+  line-height: 1.07143; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+h2 {
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.11111; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+button {
+  cursor: pointer;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* class rules */
+/* Logo Web studio */
+.top-line .logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16667; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.top-line .logo2 {
+  color: #4d5ae5;
+}
+
+/* Navigation */
+.top-line .link-studio,
+.link-portfolio,
+.link-contacts {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.top-line .link-studio:hover,
+.top-line .link-studio:active {
+  color: #404bbf;
+}
+
+.top-line .link-portfolio:hover {
+  color: #404bbf;
+}
+.top-line .link-contacts:hover {
+  color: #404bbf;
+}
+
+/* Contact */
+address .mail,
+address .tel {
+  color: currentColor;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+address .mail:hover,
+address .tel:hover {
+  color: #404bbf;
+}
+
+/* Title */
+.section-title {
+  background-color: #2e2f42;
+}
+.section-title .title {
+  color: #fff;
+  text-align: center;
+}
+.section-title .button-to-serwis {
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.section-title .button-to-serwis:hover {
+  background: #404bbf;
+}
+
+/* good sides of the company */
+.sides-company .text-paragrapf {
+  color: #434455;
+}
+
+/* team */
+.our-team {
+  background-color: #f4f4fd;
+}
+.our-team .our-team-title {
+  text-align: center;
+}
+.our-team-title .text-paragrapf {
+  color: #434455;
+}
+
+/* portfolio */
+.our-portfolio .our-portfolio-title {
+  text-align: center;
+}
+.our-portfolio-title .text-paragrapf {
+  color: #434455;
+}
+
+/* foter */
+.down-line {
+  background-color: #2e2f42;
+}
+.down-line .logo {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16667; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.down-line .logo2 {
+  color: #f4f4fd;
+}
+.down-line .text-paragrapf {
+  color: #f4f4fd;
+}
