@@ -15,35 +15,14 @@ h1 {
   letter-spacing: 1.12px;
 }
 
-h2 {
-  color: #2e2f42;
-  font-size: 36px;
-  font-style: normal;
-  line-height: 1.11111; /* 111.111% */
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
-h3 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; /* 120% */
-  letter-spacing: 0.4px;
-}
-button {
+h button {
   cursor: pointer;
-}
-p {
-  font-size: 16px;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
 }
 
 /* Class rules */
 
 /* Logo Web studio */
-.top-line .logo {
+.top-line .logo-up {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -53,46 +32,27 @@ p {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.top-line .logo2 {
+.top-line .logo-up-word {
   color: #2e2f42;
 }
 
 /* Navigation */
-.top-line .link-studio {
+.top-line .link {
   color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
-}
-.link-portfolio {
-  color: #2e2f42;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-.link-contacts {
-  color: #2e2f42;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-.top-line .link-studio:hover {
-  color: #404bbf;
-}
-.top-line .link-studio:active {
-  color: #404bbf;
 }
 
-.top-line .link-portfolio:hover {
+.top-line .link:hover {
   color: #404bbf;
 }
-.top-line .link-contacts:hover {
+.top-line .link:focus {
+  color: #404bbf;
+}
+.top-line .link:active {
   color: #404bbf;
 }
 
@@ -137,7 +97,7 @@ address .tel:active {
 .section-title .button-to-serwis {
   color: #ffffff;
   line-height: 1.5;
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   font-weight: 500;
   background: #4d5ae5;
@@ -149,27 +109,87 @@ address .tel:active {
 .section-title .button-to-serwis:active {
   background: #404bbf;
 }
+.section-title .button-to-serwis:focus {
+  background: #404bbf;
+}
+/* Features */
+.features-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+.features-name .features-text {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
 
 /* Team */
-.our-team {
+.team {
   background-color: #f4f4fd;
 }
-.our-team .our-team-title {
+.team .team-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.11111; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.team .team-list {
+  background-color: #ffffff;
+}
+.team-list .team-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.team-list .team-profesion {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
   text-align: center;
 }
 
 /* Portfolio */
-.our-portfolio .our-portfolio-title {
+.portfolio .portfolio-title {
   text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.portfolio .portfolio-services {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+.portfolio .portfolio-services-chapter {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 /* Foter */
 .down-line {
   background-color: #2e2f42;
 }
-.down-line .logo {
+.down-line .logo-down {
   color: #4d5ae5;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -177,7 +197,7 @@ address .tel:active {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.down-line .logo2 {
+.down-line .logo-down-word {
   color: #f4f4fd;
 }
 .down-line .text-paragrapf {
