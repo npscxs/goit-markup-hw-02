@@ -15,7 +15,7 @@ h1 {
   letter-spacing: 1.12px;
 }
 
-h button {
+button {
   cursor: pointer;
 }
 
@@ -61,7 +61,7 @@ h button {
   font-style: normal;
 }
 
-.adress .tel {
+.adress .contact {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -69,20 +69,12 @@ h button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-.adress .mail {
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-address .mail:hover,
-address .tel:hover {
+
+address .contact:hover {
   color: #404bbf;
 }
-address .mail:active,
-address .tel:active {
+
+address .contact:active {
   color: #404bbf;
 }
 
@@ -101,7 +93,6 @@ address .tel:active {
   border-radius: 4px;
   font-weight: 500;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .section-title .button-to-serwis:hover {
   background: #404bbf;
@@ -111,6 +102,7 @@ address .tel:active {
 }
 .section-title .button-to-serwis:focus {
   background: #404bbf;
+  color: #404bbf;
 }
 /* Features */
 .features-name {
@@ -135,7 +127,7 @@ address .tel:active {
   color: #2e2f42;
   font-size: 36px;
   font-style: normal;
-  line-height: 1.11111; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
@@ -202,4 +194,6 @@ address .tel:active {
 }
 .down-line .text-paragrapf {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
